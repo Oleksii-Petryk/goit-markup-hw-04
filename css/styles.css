@@ -80,6 +80,8 @@ img {
 }
 
 .header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 90px;
 
   color: var(--header-logo-color);
@@ -89,21 +91,21 @@ img {
   color: var(--secondary-header-color);
 }
 
-.logo .header-logo:focus,
-.logo .header-logo:hover {
+.logo:focus .header-logo,
+.logo:hover .header-logo {
   color: var(--focus-color);
 }
 
-.logo .footer-logo:focus,
-.logo .footer-logo:hover {
+.logo:focus .footer-logo,
+.logo:hover .footer-logo {
   color: var(--focus-color);
 }
 
 /* styles for header */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -571,11 +573,6 @@ img {
   background-color: var(--focus-color);
 }
 /* styles for portfolio page */
-
-.portfolio {
-  padding-top: 116px;
-  padding-bottom: 72px;
-}
 
 .project-filter {
   display: flex;
